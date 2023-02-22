@@ -1,0 +1,153 @@
+/* Global CSS */
+.App {
+  background-color: white;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.first-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #2d2d2d;
+  padding-bottom: 20px;
+}
+
+/* Navbar CSS */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 95%;
+  height: 50%;
+  padding: 0px;
+}
+
+.navbar-container img {
+  width: 45px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .navbar-container img {
+    width: 35px;
+  }
+}
+
+@media only screen and (max-width: 858px) {
+  .navbar-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding-top: 20px;
+    height: 100%;
+  }
+
+  .navbar-container img {
+    width: 45px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Heading CSS */
+.heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.heading button {
+  text-align: center;
+  font-size: 18px;
+  color: #2d2d2d;
+  border-radius: 5px;
+  background-color: white;
+  width: 10%;
+  height: 40px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 858px) {
+  .heading button {
+    width: 30%;
+  }
+  .heading h2 {
+    font-size: 24px;
+  }
+  .heading p {
+    font-size: 18px;
+  }
+}
+
+h2 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+/* Feature CSS */
+.features {
+  margin-top: 50px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.feature {
+  text-align: center;
+  width: 300px;
+  margin: 30px;
+}
+
+.feature img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2d2d2d;
+}
+
+.feature p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #404040;
+}
+
+@media only screen and (max-width: 1080px) {
+  .feature-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feature {
+    margin: 10px;
+  }
+
+  .feature img {
+    width: 80px;
+  }
+}
